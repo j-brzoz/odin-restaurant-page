@@ -1,6 +1,7 @@
 import websiteSturcture from "./structure";
-
-console.log("check");
+import home from "./home"
 
 websiteSturcture();
 
+// preload home tab
+home();
