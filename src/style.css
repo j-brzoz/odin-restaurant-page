@@ -39,7 +39,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url(./pic.jpg);
+    background: url(./images/pic.jpg) no-repeat center center fixed;
     width: 100%;
     height: calc(100vh - 7rem);
     background-size: cover;
@@ -53,6 +53,7 @@ body {
         background-color: rgba(255, 255, 255, 0.85);
         color: black;
         text-align: center;
+        overflow: scroll;
     }
 }
 
@@ -64,6 +65,7 @@ body {
         background-color: rgba(255, 255, 255, 0.85);
         color: black;
         text-align: center;
+        overflow: scroll;
     }
 }
 
@@ -88,14 +90,42 @@ body {
     border-bottom: 1px black solid;
 }
 
-.content p {
-    margin: 6rem 6rem 2rem 6rem;
+.firstText {
+    margin: 4rem 6rem 2rem 6rem;
     font-size: 2.4rem;
 }
 
-.content .text {
+.mainText {
     font-size: 1.2rem;
     margin: 0 8rem;
+}
+
+.dish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.discription{
+    font-size: 1rem;
+    white-space: pre-line;
+}
+
+.image {
+    height: 20rem;
+    width: auto;
 }
 
 .footer{
